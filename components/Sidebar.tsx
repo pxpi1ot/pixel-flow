@@ -10,22 +10,22 @@ import { usePathname } from 'next/navigation';
 const routes = [
     {
         href: "",
-        label: "Home",
+        label: "首页",
         icon: HomeIcon
     },
     {
         href: "workflow",
-        label: "Workflows",
+        label: "工作流",
         icon: Layers2Icon
     },
     {
         href: "credentials",
-        label: "Credentials",
+        label: "凭据",
         icon: ShieldCheckIcon
     },
     {
         href: "billing",
-        label: "Billing",
+        label: "计费",
         icon: CoinsIcon
     }
 
