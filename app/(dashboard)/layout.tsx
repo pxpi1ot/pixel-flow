@@ -5,7 +5,9 @@ import React from "react";
 const Layout = ({ children }: { children: React.ReactNode }) => {
 	return (
 		<div className="flex h-screen">
+			{/* 侧边栏 */}
             <DesktopSidebar />
+			{/* 主内容 */}
 			<div className="flex flex-col flex-1 min-h-screen">
 				<header className="flex items-center justify-between px-6 py-4 h-[50px] container">PxFlow</header>
 				<Separator />
