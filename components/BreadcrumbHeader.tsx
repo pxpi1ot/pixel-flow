@@ -14,7 +14,7 @@ const BreadcrumbHeader = () => {
 					{paths.map((path, index) => (
 						<Fragment key={index}>
 							<BreadcrumbItem>
-								<BreadcrumbLink className="capitalize" href={path}>
+								<BreadcrumbLink className="capitalize" href={`/${path}`}>
                                 {path === "" ? "home" : path}
                                 </BreadcrumbLink>
 							</BreadcrumbItem>

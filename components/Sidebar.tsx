@@ -41,7 +41,7 @@ const routes = [
                 <Logo />
             </div>
             <div className='p-2'>TODO CREADITS</div>
-            <div className="flex flex-col p-2">
+            <div className="flex flex-col p-2 gap-1">
                 {routes.map(route => (
                     <Link key={route.href} href={route.href}
                     className={buttonVariants({
